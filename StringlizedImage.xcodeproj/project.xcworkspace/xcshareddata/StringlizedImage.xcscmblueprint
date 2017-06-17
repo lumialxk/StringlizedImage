@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2F2920FA0F636F7CDCC87521CB825EE2C397DCC1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2F2920FA0F636F7CDCC87521CB825EE2C397DCC1" : 9223372036854775807,
+    "716F76025CF280474272A637BC7BB4574C29744C" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "184BDD22-D2BE-4166-9A62-323B786E41DC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2F2920FA0F636F7CDCC87521CB825EE2C397DCC1" : "StringlizedImage\/",
+    "716F76025CF280474272A637BC7BB4574C29744C" : "StringlizedImage\/LXKImageLog\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "StringlizedImage",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "StringlizedImage.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lumialxk\/StringlizedImage.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2F2920FA0F636F7CDCC87521CB825EE2C397DCC1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lumialxk\/LXKImageLog.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "716F76025CF280474272A637BC7BB4574C29744C"
+    }
+  ]
+}
