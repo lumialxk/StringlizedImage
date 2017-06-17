@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        imageLog(UIImage(named: "batman.png")!)
         // Do any additional setup after loading the view, typically from a nib.
     }
 

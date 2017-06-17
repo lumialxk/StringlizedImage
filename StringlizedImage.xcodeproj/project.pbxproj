@@ -15,6 +15,13 @@
 		EA0A85D61EF3D9A30098AB17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0A85D41EF3D9A30098AB17 /* LaunchScreen.storyboard */; };
 		EA0A85E11EF3D9A30098AB17 /* StringlizedImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0A85E01EF3D9A30098AB17 /* StringlizedImageTests.swift */; };
 		EA0A85EC1EF3D9A30098AB17 /* StringlizedImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0A85EB1EF3D9A30098AB17 /* StringlizedImageUITests.swift */; };
+		EA0A85FD1EF4CD580098AB17 /* AsciiArtist.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0A85F91EF4CD580098AB17 /* AsciiArtist.swift */; };
+		EA0A85FE1EF4CD580098AB17 /* AsciiPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0A85FA1EF4CD580098AB17 /* AsciiPalette.swift */; };
+		EA0A85FF1EF4CD580098AB17 /* Pixel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0A85FB1EF4CD580098AB17 /* Pixel.swift */; };
+		EA0A86001EF4CD580098AB17 /* UIImage+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0A85FC1EF4CD580098AB17 /* UIImage+Util.swift */; };
+		EA0A86021EF4CD710098AB17 /* CGSize+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0A86011EF4CD710098AB17 /* CGSize+Util.swift */; };
+		EA0A86041EF4CF140098AB17 /* LXKImageLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0A86031EF4CF140098AB17 /* LXKImageLogger.swift */; };
+		EA0A86061EF4D2CE0098AB17 /* batman.png in Resources */ = {isa = PBXBuildFile; fileRef = EA0A86051EF4D2CE0098AB17 /* batman.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		EA0A85E71EF3D9A30098AB17 /* StringlizedImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StringlizedImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA0A85EB1EF3D9A30098AB17 /* StringlizedImageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringlizedImageUITests.swift; sourceTree = "<group>"; };
 		EA0A85ED1EF3D9A30098AB17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA0A85F91EF4CD580098AB17 /* AsciiArtist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AsciiArtist.swift; path = ../StringlizedImage/AsciiArtist.swift; sourceTree = "<group>"; };
+		EA0A85FA1EF4CD580098AB17 /* AsciiPalette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AsciiPalette.swift; path = ../StringlizedImage/AsciiPalette.swift; sourceTree = "<group>"; };
+		EA0A85FB1EF4CD580098AB17 /* Pixel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pixel.swift; path = ../StringlizedImage/Pixel.swift; sourceTree = "<group>"; };
+		EA0A85FC1EF4CD580098AB17 /* UIImage+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Util.swift"; path = "../StringlizedImage/UIImage+Util.swift"; sourceTree = "<group>"; };
+		EA0A86011EF4CD710098AB17 /* CGSize+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CGSize+Util.swift"; path = "../StringlizedImage/CGSize+Util.swift"; sourceTree = "<group>"; };
+		EA0A86031EF4CF140098AB17 /* LXKImageLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LXKImageLogger.swift; path = ../StringlizedImage/LXKImageLogger.swift; sourceTree = "<group>"; };
+		EA0A86051EF4D2CE0098AB17 /* batman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batman.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +93,7 @@
 		EA0A85BC1EF3D9A20098AB17 = {
 			isa = PBXGroup;
 			children = (
+				EA0A86071EF4DC480098AB17 /* LXKImageLog */,
 				EA0A85C71EF3D9A20098AB17 /* StringlizedImage */,
 				EA0A85DF1EF3D9A30098AB17 /* StringlizedImageTests */,
 				EA0A85EA1EF3D9A30098AB17 /* StringlizedImageUITests */,
@@ -101,6 +116,7 @@
 			children = (
 				EA0A85C81EF3D9A20098AB17 /* AppDelegate.swift */,
 				EA0A85CA1EF3D9A20098AB17 /* ViewController.swift */,
+				EA0A86051EF4D2CE0098AB17 /* batman.png */,
 				EA0A85CC1EF3D9A20098AB17 /* Main.storyboard */,
 				EA0A85D21EF3D9A30098AB17 /* Assets.xcassets */,
 				EA0A85D41EF3D9A30098AB17 /* LaunchScreen.storyboard */,
@@ -126,6 +142,19 @@
 				EA0A85ED1EF3D9A30098AB17 /* Info.plist */,
 			);
 			path = StringlizedImageUITests;
+			sourceTree = "<group>";
+		};
+		EA0A86071EF4DC480098AB17 /* LXKImageLog */ = {
+			isa = PBXGroup;
+			children = (
+				EA0A85F91EF4CD580098AB17 /* AsciiArtist.swift */,
+				EA0A85FA1EF4CD580098AB17 /* AsciiPalette.swift */,
+				EA0A85FB1EF4CD580098AB17 /* Pixel.swift */,
+				EA0A85FC1EF4CD580098AB17 /* UIImage+Util.swift */,
+				EA0A86011EF4CD710098AB17 /* CGSize+Util.swift */,
+				EA0A86031EF4CF140098AB17 /* LXKImageLogger.swift */,
+			);
+			path = LXKImageLog;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA0A86061EF4D2CE0098AB17 /* batman.png in Resources */,
 				EA0A85D61EF3D9A30098AB17 /* LaunchScreen.storyboard in Resources */,
 				EA0A85D31EF3D9A30098AB17 /* Assets.xcassets in Resources */,
 				EA0A85CE1EF3D9A20098AB17 /* Main.storyboard in Resources */,
@@ -265,8 +295,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA0A85FE1EF4CD580098AB17 /* AsciiPalette.swift in Sources */,
+				EA0A85FD1EF4CD580098AB17 /* AsciiArtist.swift in Sources */,
+				EA0A86021EF4CD710098AB17 /* CGSize+Util.swift in Sources */,
 				EA0A85CB1EF3D9A20098AB17 /* ViewController.swift in Sources */,
+				EA0A86041EF4CF140098AB17 /* LXKImageLogger.swift in Sources */,
 				EA0A85D11EF3D9A30098AB17 /* StringlizedImage.xcdatamodeld in Sources */,
+				EA0A85FF1EF4CD580098AB17 /* Pixel.swift in Sources */,
+				EA0A86001EF4CD580098AB17 /* UIImage+Util.swift in Sources */,
 				EA0A85C91EF3D9A20098AB17 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +457,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FCF47GAA3V;
 				INFOPLIST_FILE = StringlizedImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lxk.StringlizedImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,6 +471,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FCF47GAA3V;
 				INFOPLIST_FILE = StringlizedImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lxk.StringlizedImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,6 +556,7 @@
 				EA0A85F21EF3D9A30098AB17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA0A85F31EF3D9A30098AB17 /* Build configuration list for PBXNativeTarget "StringlizedImageTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +565,7 @@
 				EA0A85F51EF3D9A30098AB17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA0A85F61EF3D9A30098AB17 /* Build configuration list for PBXNativeTarget "StringlizedImageUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +574,7 @@
 				EA0A85F81EF3D9A30098AB17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
